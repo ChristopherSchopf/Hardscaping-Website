@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/* CSS RESET */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F781259.jpg&f=1&nofb=1&ipt=eddedb5744d8c774b8787ecd4242a9c1deb6e034e690b5a940fe75780d79af70&ipo=images'); */
+}
+
+ul {
+    list-style: none;
+}
+
+h1, h2 {
+    font-family: "Roboto", sans-serif;
+}
+
+/* Header */
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 18rem;
+    background-color: #1F2937;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+/* Top Navigation */
+
+.top-nav {
+    background-color: #E7F0F0;
+    padding: 1rem 18rem;
+}
+
+.top-nav ul {
+    display: flex;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+/* Hero Section */
+
+.hero {
+    background-color: #E7F0F0;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+/* Main Content */
+
+.main-content-header {
+    padding: 1rem 0;
+    background-color: #E7F0F0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.25rem;
+}
+.main-content-header h1 {
+    text-align: center;
+}
+
+.main-content {
+    display: flex;
+    padding: 0 18rem;
+}
+
+.main-content p {
+    padding: 1rem 0;
+}
+
+.main-content img {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.main-content-right, .main-content-left {
+    background-color: #fff;
+    padding: 2rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    width: 50%;
+}
+
+/* Services Section */
+.services-container-header {
+    padding: 0 18rem;
+}
+
+.services-header {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem 18rem;
+    background-color: #E7F0F0;
+}
+
+.services-section-double {
+    display: flex;
+    justify-content: center;
+    padding: 0 18rem;
+
+}
+
+.services-left, .services-right {
+    background-color: #fff;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    text-align: center;
+}
+
+.services-left h3, .services-right h3 {
+    font-family: "Roboto", sans-serif;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.services-left p, .services-right p {
+    text-align: justify;
+    font-size: 1.25rem;
+}
+
+.services-left img, .services-right img {
+    width: 100%;
+    height: auto;
+    border: 1px black solid;
+    
+}
+
+.services-section-triple {
+    display: flex;
+    justify-content: center;
+    padding: 0 18rem;
+    padding-bottom: 1rem;
+}
+
+.services-section-one, .services-section-two, .services-section-three {
+    background-color: #fff;
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+}
+
+.services-section-one img, .services-section-two img, .services-section-three img{
+    width: 100%;
+    height: auto;
+    border: 1px black solid;
+}
+
+.services-section-one h3, .services-section-two h3, .services-section-three h3 {
+    font-family: "Roboto", sans-serif;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.services-section-one p, .services-section-two p, .services-section-three p {
+    text-align: justify;
+    font-size: 1.25rem;
+}
+
+.testimonial-section {
+    background-color: #D3D3D3;
+    padding: 4rem 30rem;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.customer-name {
+    padding-top: 2rem;
+    text-align: right;
+    font-weight: 600;
+}
+
+.main-contact {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 18rem;
+}
+
+.main-contact-container {
+    
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* About Page */
+
+.about {
+    background-color: #fff;
+}
+.about h2 {
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    padding: .5rem 1rem;
+}
+.about p {
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+.about-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-image img {
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+
+
+
